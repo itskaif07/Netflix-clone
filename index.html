@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body class="bg-[#00000090]">
+
+    <div id="page1" class="h-full bg-gray-950 pb-12 mb-2 lg:h-screen lg:pb-0">
+
+        <nav class="flex items-center justify-around md:justify-between md:px-32">
+            <div class="logo">
+                <img src="./Assets/logo-removebg-preview.png" alt="Netflix" class="w-32 lg:w-44">
+            </div>
+
+            <div id="opt" class="flex items-center">
+                <select name="lang"
+                    class="bg-transparent text-white rounded border-2 px-1 py-0.5 mx-4 border-[#888888] cursor-pointer lg:px-2"
+                    autofocus>
+                    <option value="" class="md:hidden font-bolder">Language <i
+                            class="fa-solid fa-chevron-down md:hidden" style="color: #ffffff;"></i></option>
+                    <option value="eng" class="font-bolder">English <i class="fa-solid fa-chevron-down"
+                            style="color: #ffffff;"></i></option>
+                    <option value="hindi" class="font-bolder">Hindi <i class="fa-solid fa-chevron-down"
+                            style="color: #ffffff;"></i></option>
+                </select>
+
+                <button
+                    class="bg-[#E50914] medium hover:bg-red-800 text-white px-2.5 py-1.5 text-center hover:bg-red-800 cursor-pointer flex justify-center items-center  rounded-md lg:px-4">Sign
+                    In</button>
+            </div>
+
+        </nav>
+
+        <div id="content" class="text-white mt-12 md:mt-24">
+            <div id="text" class="md:mx-44">
+                <h1 class="text-4xl md:text-5xl w- font-bolder leading-9 text-center mb-8">The biggest Indian hits. The
+                    best Indian stories. All streaming here.</h1>
+                <h4 class="text-center mb-4 text-xl mx-auto">Watch anywhere. Cancel anytime.</h4>
+                <h4 class="text-center mb-4 text-xl mx-auto">Ready to watch? Enter your email to create or restart your
+                    membership.</h4>
+            </div>
+
+            <div id="subs" class="mt-12 md:flex md:items-center md:justify-center md:mt-20">
+
+                <input type="email" name="email" placeholder="Email address"
+                    class=" font-thin bg-transparent border-[#888888] border-2 text-gray rounded block text-md px-4 md:w-84 lg:w-96 py-2.5 font-bold mx-auto outline-green-500 focus:outline-green-500 mb-4 md:m-0 md:mr-2  md:py-4">
+
+                <button
+                    class="bg-[#E50914] medium hover:bg-red-800 text-white px-5 py-3.5 text-center hover:bg-red-800 cursor-pointer rounded-md text-2xl font-black block mx-auto md:m-0  md:py-4">Get
+                    Started &nbsp; ></button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ----------------------------------- -->
+
+    <div id="page2" class="text-white bg-black py-12 px-8 mb-2 md:flex md:items-center md:justify-center">
+
+        <div id="left" class="md:flex md:items-center md:flex-col">
+
+            <h1 class="text-3xl text-center mb-4 md:text-left md:text-5xl md:w-3/4">Enjoy on your TV</h1>
+            <h3 class="text-lg leading-6 text-center pb-12 md:text-left lg:w-3/4 md:text-2xl">Watch on smart TVs,
+                PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+        </div>
+
+        <div id="right">
+            <img src="./Assets/tv.png" alt="">
+        </div>
+    </div>
+
+    <!-- ------------------------------------ -->
+
+    <div id="page3"
+        class="text-white bg-black py-12 px-8 mb-2 md:flex md:flex-row-reverse md:items-center md:justify-center">
+
+
+        <div id="left" class="md:flex md:items-center md:flex-col">
+
+            <h1 class="text-3xl text-center mb-4 md:text-left md:text-5xl md:w-3/4">Download your shows to watch offline
+            </h1>
+            <h3 class="text-lg leading-6 text-center pb-12 md:text-left lg:w-3/4 md:text-2xl">Save your favourites
+                easily and always have something to watch.</h3>
+        </div>
+
+        <div id="right">
+            <img src="./Assets/mobile-0819.jpg" alt="">
+        </div>
+
+    </div>
+
+    <!-- ----------------------------------- -->
+
+    <div id="page4" class="text-white bg-black py-12 px-8 mb-2 md:flex md:items-center md:justify-center">
+
+        <div id="left" class="md:flex md:items-center md:flex-col">
+
+            <h1 class="text-3xl text-center mb-4 md:text-5xl md:text-left md:w-3/4">Watch everywhere</h1>
+            <h3 class="text-lg leading-6 text-center pb-12 md:text-left lg:w-3/4 md:text-2xl">Stream unlimited movies
+                and TV shows on your phone, tablet, laptop, and TV.</h3>
+        </div>
+
+        <div id="right">
+            <img src="./Assets/device-pile-in.png" alt="">
+        </div>
+    </div>
+
+    <!-- ---------------------------- -->
+
+    <div id="page5"
+        class="text-white bg-black py-12 px-8 mb-2 md:flex md:flex-row-reverse md:items-center md:justify-center">
+
+
+        <div id="left" class="md:flex md:items-center md:justify-center md:flex-col">
+
+            <h1 class="text-3xl text-center mb-4 md:text-left md:text-5xl md:w-3/4">Create profiles for kids
+            </h1>
+            <h3 class="text-lg leading-6 text-center pb-12 md:text-left lg:w-3/4 md:text-2xl">Send children on
+                adventures with their favourite characters in a space made just for them—free with your membership.</h3>
+        </div>
+
+        <div id="right">
+            <img src="./Assets/kids.png" alt="">
+        </div>
+
+    </div>
+
+    <!-- ------------------------ -->
+
+    <div id="page6" class="bg-black text-white mb-2 px-12 py-12">
+
+        <h1 class="text-center text-3xl font-black mb-8 md:text-4xl lg:text-5xl">Frequently Asked Questions</h1>
+
+
+        <div id="elem1" class="bg-[#2d2d2d] my-4 cursor-pointer px-4 py-4 lg:py-5 lg:mx-28">
+
+            <div id="q1" class="flex items-center justify-between">
+                <div class="lg:text-2xl lg:font-sm">What is Netflix?</div>
+                <div>
+                    <div><i class="fa-solid fa-plus lg:text-4xl" id="plus1"></i></div>
+                    <div><i class="fa-solid fa-x hidden lg:text-4xl" id="cross1"></i></div>
+                </div>
+            </div>
+
+            <div id="bottom1" class="bg-[#2d2d2d] hidden text-sm py-8 lg:text-xl">
+                Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                documentaries and more – on thousands of internet-connected devices.
+                <br>
+                You can watch as much as you want, whenever you want, without a single ad – all for one low monthly
+                price. There's always something new to discover, and new TV shows and movies are added every week!
+            </div>
+
+        </div>
+
+
+        <div id="elem2" class="bg-[#2d2d2d] my-4 cursor-pointer px-4 py-4 lg:py-5 lg:mx-28">
+
+            <div id="q2" class="flex items-center justify-between">
+                <div class="lg:text-2xl lg:font-sm">How much does Netflix cost?</div>
+                <div>
+                    <div><i class="fa-solid fa-plus lg:text-4xl" id="plus2"></i></div>
+                    <div><i class="fa-solid fa-x hidden lg:text-4xl" id="cross2"></i></div>
+                </div>
+            </div>
+
+            <div id="bottom2" class="bg-[#2d2d2d] hidden text-sm py-8 lg:text-xl">
+                Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed
+                monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+            </div>
+
+        </div>
+
+
+        <div id="elem3" class="bg-[#2d2d2d] my-4 cursor-pointer px-4 py-4 lg:py-5 lg:mx-28">
+
+            <div id="q3" class="flex items-center justify-between">
+                <div class="lg:text-2xl lg:font-sm">Where can I watch?</div>
+                <div>
+                    <div><i class="fa-solid fa-plus lg:text-4xl" id="plus3"></i></div>
+                    <div><i class="fa-solid fa-x hidden lg:text-4xl" id="cross3"></i></div>
+                </div>
+            </div>
+
+            <div id="bottom3" class="bg-[#2d2d2d] hidden text-sm py-8 lg:text-xl">
+                Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com
+                from your personal computer or on any internet-connected device that offers the Netflix app, including
+                smart TVs, smartphones, tablets, streaming media players and game consoles.
+                <br>
+                You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to
+                watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+            </div>
+
+        </div>
+
+
+        <div id="elem4" class="bg-[#2d2d2d] my-4 cursor-pointer px-4 py-4 lg:py-5 lg:mx-28">
+
+            <div id="q2" class="flex items-center justify-between">
+                <div class="lg:text-2xl lg:font-sm">How do I cancel?</div>
+                <div>
+                    <div><i class="fa-solid fa-plus lg:text-4xl" id="plus4"></i></div>
+                    <div><i class="fa-solid fa-x hidden lg:text-4xl" id="cross4"></i></div>
+                </div>
+            </div>
+
+            <div id="bottom4" class="bg-[#2d2d2d] hidden text-sm py-8 lg:text-xl">
+                Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your
+                account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+            </div>
+
+        </div>
+
+
+        <div id="elem5" class="bg-[#2d2d2d] my-4 cursor-pointer px-4 py-4 lg:py-5 lg:mx-28">
+
+            <div id="q2" class="flex items-center justify-between">
+                <div class="lg:text-2xl lg:font-sm">What can I watch in Netflix?</div>
+                <div>
+                    <div><i class="fa-solid fa-plus lg:text-4xl" id="plus5"></i></div>
+                    <div><i class="fa-solid fa-x hidden lg:text-4xl" id="cross5"></i></div>
+                </div>
+            </div>
+
+            <div id="bottom5" class="bg-[#2d2d2d] hidden text-sm py-8 lg:text-xl">
+                Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix
+                originals, and more. Watch as much as you want, anytime you want.
+            </div>
+
+        </div>
+
+
+        <div id="elem6" class="bg-[#2d2d2d] my-4 cursor-pointer px-4 py-4 lg:py-5 lg:mx-28">
+
+            <div id="q2" class="flex items-center justify-between">
+                <div class="lg:text-2xl lg:font-sm">Is Netflix good for kids?</div>
+                <div>
+                    <div><i class="fa-solid fa-plus lg:text-4xl" id="plus6"></i></div>
+                    <div><i class="fa-solid fa-x hidden lg:text-4xl" id="cross6"></i></div>
+                </div>
+            </div>
+
+            <div id="bottom6" class="bg-[#2d2d2d] hidden text-sm py-8 lg:text-xl">
+                The Netflix Kids experience is included in your membership to give parents control while kids enjoy
+                family-friendly TV shows and films in their own space.
+                <br>
+                Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of
+                content kids can watch and block specific titles you don’t want kids to see.
+            </div>
+
+        </div>
+
+        <h3 id="info" class="mt-8 text-center text-xl">
+            Ready to watch? Enter your email to create or restart your membership.
+        </h3>
+
+        <div id="sub" class="mt-8 md:flex md:items-center md:justify-center">
+
+            <input type="email" name="email" placeholder="Email address"
+                class=" font-thin bg-transparent border-[#888888] border-2 text-gray block text-md px-4 w-80 md:w-84 lg:w-96 py-2.5 font-bold mx-auto outline-green-500 focus:outline-green-500 mb-4 md:m-0 md:mr-2  md:py-4">
+
+            <button
+                class="bg-[#E50914] medium hover:bg-red-800 text-white px-6 py-3.5 text-center hover:bg-red-800 cursor-pointer rounded-md text-xl font-black block mx-auto md:m-0  md:py-4">Get
+                Started &nbsp; ></button>
+        </div>
+
+    </div>
+
+    <!-- -------------------------------------- -->
+
+
+    <div id="last" class="bg-black text-gray-400 pt-12 pb-20 px-8 mx-auto sm:px-20 md:px-28 lg:px-44">
+
+        <h3 class="text-md text-left mb-4">Questions? Call <span class="underline">000-800-919-1694</span></h3>
+
+        <div>
+
+        <div id="single" class="sm:hidden">
+            <a href="#">FAQ</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Privacy</a>
+            <a href="#">Speed Test</a>
+            <a href="#">Help Centre</a>
+            <a href="#">Jobs</a>
+            <a href="#">Cookie Preferences</a>
+            <a href="#">Legal Notices</a>
+            <a href="#">Account</a>
+            <a href="#">Ways to Watch</a>
+            <a href="#">Corporate Information</a>
+            <a href="#">Privacy</a>
+            <a href="#">Media Centre</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div id="double" class="hidden sm:flex justify-between items-center md:hidden ">
+
+            <div id="prev">
+                <a href="#">FAQ</a>
+                <a href="#">Account</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Privacy</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Speed Test</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+
+            <div id="later">
+                <a href="#">Help Centre</a>
+                <a href="#">Media Centre</a>
+                <a href="#">Jobs</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Legal Notices</a>
+            </div>
+        </div>
+
+        <div id="large" class="hidden md:flex justify-between items-center px-4">
+
+            <div id="one">
+                <a href="#">FAQ</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+            </div>
+
+            <div id="two">
+                <a href="#">Help Centre</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Legal Notices</a>
+            </div>
+
+            <div id="three">
+                <a href="#">Account</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Privacy</a>
+            </div>
+
+            <div id="four">
+                <a href="#">Media Centre</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div>
+        <select name="lang"
+        class="bg-transparent text-white rounded border-2 px-1 py-0.5 mx-4 my-4 border-[#888888] cursor-pointer lg:px-2"
+        autofocus>
+        <option value="" class="md:hidden font-bolder">Language <i
+                class="fa-solid fa-chevron-down md:hidden" style="color: #ffffff;"></i></option>
+        <option value="eng" class="font-bolder">English <i class="fa-solid fa-chevron-down"
+                style="color: #ffffff;"></i></option>
+        <option value="hindi" class="font-bolder">Hindi <i class="fa-solid fa-chevron-down"
+                style="color: #ffffff;"></i></option>
+    </select>
+    </div>
+
+    <div class="ml-5 text-sm">Netflix India</div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+@font-face{
+    font-family: NetflixBd;
+    src: url(./Assets/NetflixSans_W_Bd.woff2)
+}
+
+@font-face{
+    font-family: NetflixMd;
+    src: url(./Assets/NetflixSans_W_Md.woff2)
+}
+
+@font-face{
+    font-family: NetflixRg;
+    src: url(./Assets/NetflixSans_W_Rg.woff2)
+}
+
+body{
+    font-family: NetflixMd;
+}
+
+#page1{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./Assets/bg.jpg) no-repeat center center/cover;
+}
+
+h1{
+    font-family: NetflixBd;
+}
+
+button{
+    font-family: NetflixRg;
+}
+
+#page6{
+    font-family: NetflixRg;
+}
+
+#last{
+    font-family: NetflixRg;
+}
+
+#last a{
+    display: block;
+    margin-top: 13px;
+    text-decoration: underline;
+    font-weight: 100;
+    font-size: small;
+}
